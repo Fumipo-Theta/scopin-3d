@@ -1,0 +1,10 @@
+{
+  "name": "scopin-3d",
+  "version": "0.0.1",
+  "description": "## Prepare 3d model",
+  "scripts": {
+    "start": "python -m http.server"
+  },
+  "author": "",
+  "license": "ISC"
+}
