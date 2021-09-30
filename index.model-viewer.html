@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+    <!-- aframe-orbit-controls is used for orbit control -->
+    <script src="https://unpkg.com/aframe-orbit-controls@1.2.0/dist/aframe-orbit-controls.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+            <!-- asset for model file -->
+            <a-asset-item id="tree-obj" src=""></a-asset-item>
+            <a-asset-item id="tree-mtl" src=""></a-asset-item>
+        </a-assets>
+
+        <!-- position is the global coordinate. Model should have its center position at it. -->
+        <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position=" 0 0 0" rotation="0 0 0" scale="1 1 1">
+        </a-entity>
+
+        <!-- 
+            Camera should look at target: (0, 0, 0) which is equivalent to center of the model.
+            initialPosition should be configured according to the size of the model.
+            (Whole part of the model should be appear in the first view.)
+        -->
+        <a-entity camera look-controls
+            orbit-controls="target: 0 0 0; minDistance: 0.5; maxDistance: 180; initialPosition: 0 0 5; zoomSpeed: 1;">
+        </a-entity>
+
+        <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+
+    <script>
+        // type ModelSize = "light" | "moderate" | "heavy"
+        // type Query = {size: ModelSize}
+        const modelRoot = "/models"
+        const modelSizeMap = {
+            light: "-light",
+            moderate: "",
+            heavy: "-heavy",
+        }
+        const parseQueryParams = (queryString) => {
+            return queryString.substring(1).split('&').map((p) => p.split('=')).reduce((obj, e) => ({ ...obj, [e[0]]: e[1] }), {});
+        }
+        const model = location.hash.substring(1)
+        const queryMap = parseQueryParams(location.search) // Query
+        const modelSize = modelSizeMap[queryMap?.size || "moderate"]
+
+        const objSrc = `${modelRoot}/${model}/index${modelSize}.obj`
+        const mtlSrc = `${modelRoot}/${model}/index${modelSize}.mtl`
+
+        document.querySelector("#tree-obj").setAttribute("src", objSrc)
+        document.querySelector("#tree-mtl").setAttribute("src", mtlSrc)
+    </script>
+</body>
+
+</html>
