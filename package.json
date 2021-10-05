@@ -4,7 +4,8 @@
   "description": "## Prepare 3d model",
   "scripts": {
     "build": "webpack build",
-    "start": "webpack serve --mode development --port 8090"
+    "start": "webpack serve --mode development --port 8090",
+    "watch": "webpack watch"
   },
   "author": "",
   "license": "ISC",
