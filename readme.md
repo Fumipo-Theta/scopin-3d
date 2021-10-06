@@ -1,5 +1,7 @@
 # SCOPin rock 3D model objects
 
+Released app: https://3d-rocks.fumipo-theta.com/index.html
+
 ## Prepare 3D model
 
 Metashapeを用いて3Dモデルを作成する。
@@ -21,13 +23,9 @@ Metashapeを用いて3Dモデルを作成する。
 
 ## Local development
 
-### Requirements
-
-- python (TODO: use webpack-dev-server)
-
 ### Local server
 
-- `npm start`: then access to [http://localhost:8000](http://localhost:8000)
+- `npm start`: then access to [http://localhost:8090/index.html](http://localhost:8090/index.html)
 
 ## Publish models
 
