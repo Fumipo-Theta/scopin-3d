@@ -1,6 +1,6 @@
 {
   "name": "scopin-3d",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "## Prepare 3d model",
   "scripts": {
     "build": "webpack build",
