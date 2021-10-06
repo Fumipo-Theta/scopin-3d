@@ -16,15 +16,15 @@ const models = rockList["rock-list"] as Model[]
 const Card: React.FC<Model> = ({ id, sizeType, label, dataSizeMB, location }) => {
     const href = `index.model-viewer.html?size=${sizeType}#${id}`
     return (
-        <div id={id} className={styles.modelCard}>
+        <div className={styles.modelCard}>
             <a href={href} className={styles.anchor}>
-                <div className={`${styles.dataSize} ${styles.tray}`}>{dataSizeMB}MB</div>
                 <img className={styles.thumbnail} src={`/models/${id}/thumbnail.jpg`} />
 
                 <div className={styles.descriptionContainer}>
-                    <div className={styles.tray} style={{ width: "100%" }}>{label}</div>
-                    <div className={styles.tray} style={{ width: "100%" }}>{location}</div>
+                    <div className={`${styles.description} ${styles.tray}`} >{label}</div>
+                    <div className={`${styles.description} ${styles.tray}`} >{location}</div>
                 </div>
+                <div className={`${styles.dataSize} ${styles.tray}`}>{dataSizeMB}MB</div>
             </a>
         </div>
     )
@@ -37,7 +37,7 @@ type Props = {
 const App: React.FC<Props> = ({ models }) => {
     return <div className={styles.cardContainer}> {
         models.map(model => {
-            return <Card {...model} />
+            return <Card key={model.id} {...model} />
         })
     }   </div>
 }
