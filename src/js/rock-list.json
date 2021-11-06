@@ -3,198 +3,296 @@
         {
             "id": "unzen-rhyolite",
             "label": "流紋岩 / Rhyolite",
-            "dataSizeMB": 5.4,
+            "dataSizeMB": 6.0,
             "sizeType": "light",
             "location": "Mt. Unzen, Nagasaki Pref. in Japan"
         },
         {
             "id": "muroto-gabbro",
             "label": "斑れい岩 / Gabbro",
-            "dataSizeMB": 12.1,
+            "dataSizeMB": 7.3,
             "sizeType": "light",
             "location": "Muroto, Kochi Pref. in Japan"
         },
         {
             "id": "arizona-lherzolite",
             "label": "かんらん岩(捕獲岩) / Lherzolite (xenolith)",
-            "dataSizeMB": 5.8,
+            "dataSizeMB": 6.4,
             "sizeType": "light",
             "location": "Arizona in U.S.A."
         },
         {
             "id": "miyakejima-basalt",
             "label": "玄武岩 / Basalt",
-            "dataSizeMB": 4.4,
+            "dataSizeMB": 4.0,
             "sizeType": "light",
             "location": "Miyakejima Isl., Tokyo Pref. in Japan"
         },
         {
             "id": "shodoshima-granite",
             "label": "花こう岩 / Granite",
-            "dataSizeMB": 3.2,
+            "dataSizeMB": 3.0,
             "sizeType": "light",
             "location": "Shodoshima Isl., Kagawa Pref. in Japan"
         },
         {
             "id": "tanzawa-tornalite",
             "label": "閃緑岩 / Diorite",
-            "dataSizeMB": 3.8,
+            "dataSizeMB": 3.6,
             "sizeType": "light",
             "location": "Tanzawa, Kanagawa Pref. in Japan"
         },
         {
             "id": "miharayama-basalt",
             "label": "玄武岩 / Basalt",
-            "dataSizeMB": 6.8,
+            "dataSizeMB": 6.2,
             "sizeType": "light",
             "location": "Mt. Miharayama, Tokyo in Japan"
         },
         {
             "id": "kagawa-rhyolite",
             "label": "流紋岩 / Rhyolite",
-            "dataSizeMB": 5.9,
+            "dataSizeMB": 5.4,
             "sizeType": "light",
             "location": "Goshikidai, Kagawa Pref. in Japan"
         },
         {
             "id": "izu-andesite",
             "label": "安山岩 / Andesite",
-            "dataSizeMB": 7.0,
+            "dataSizeMB": 6.4,
             "sizeType": "light",
             "location": "Izu, Shizuoka Pref. in Japan"
         },
         {
             "id": "imperial-granite",
             "label": "花こう岩 / Granite",
-            "dataSizeMB": 4.7,
+            "dataSizeMB": 4.3,
             "sizeType": "light",
             "location": "China"
         },
         {
             "id": "tanzawa-gabbro",
             "label": "斑れい岩 / Gabbro",
-            "dataSizeMB": 6.7,
+            "dataSizeMB": 6.2,
             "sizeType": "light",
             "location": "Tanzawa, Kanagawa Pref. in Japan"
         },
         {
             "id": "horoman-peridotite",
             "label": "かんらん岩 / Lherzolite",
-            "dataSizeMB": 7.9,
+            "dataSizeMB": 7.2,
             "sizeType": "light",
             "location": "Horoman, Hokkaido Pref. in Japan"
         },
         {
             "id": "basaltic-lava",
             "label": "玄武岩 / Basalt",
-            "dataSizeMB": 6.0,
+            "dataSizeMB": 5.5,
             "sizeType": "light",
             "location": "Hawaii in U.S.A"
         },
         {
             "id": "wada-obsidian",
             "label": "黒曜岩 / Obsidian",
-            "dataSizeMB": 7.9,
+            "dataSizeMB": 7.3,
             "sizeType": "light",
             "location": "Wada, Nagano Pref. in Japan"
         },
         {
             "id": "fuji-volcanicbomb",
             "label": "玄武岩 / Basalt",
-            "dataSizeMB": 3.9,
+            "dataSizeMB": 3.7,
             "sizeType": "light",
             "location": "Mt. Fuji, Shizuoka Pref. in Japan"
         },
         {
             "id": "korea-granite",
             "label": "花こう岩 / Granite",
-            "dataSizeMB": 5.9,
+            "dataSizeMB": 4.8,
             "sizeType": "light",
             "location": "Gyeonggi-do in Korea"
         },
         {
             "id": "tanzawa-metabasalt",
             "label": "玄武岩 / Basalt",
-            "dataSizeMB": 4.5,
+            "dataSizeMB": 4.2,
             "sizeType": "light",
             "location": "Tanzawa, Kanagawa Pref. in Japan"
         },
         {
             "id": "nagatoro-ironschist",
             "label": "結晶片岩 / Crystalline schist",
-            "dataSizeMB": 5.9,
+            "dataSizeMB": 5.4,
             "sizeType": "light",
             "location": "Nagatoro, Saitama Pref. in Japan"
         },
         {
             "id": "sekigawa-actinolite",
             "label": "結晶片岩 / Crystalline schist",
-            "dataSizeMB": 4.5,
+            "dataSizeMB": 4.9,
             "sizeType": "light",
             "location": "Sekigawa River, Ehime Pref. in Japan"
         },
         {
             "id": "yamanashi-diopside-andesite",
             "label": "安山岩 / Andesite",
-            "dataSizeMB": 4.2,
+            "dataSizeMB": 3.9,
             "sizeType": "light",
             "location": "Yamanashi Pref. in Japan"
         },
         {
             "id": "sekigawa-gniess",
             "label": "片麻岩 / Gniess",
-            "dataSizeMB": 6.2,
+            "dataSizeMB": 5.7,
             "sizeType": "light",
             "location": "Sekigawa River, Ehime Pref. in Japan"
         },
         {
             "id": "ikaho-hornblende-andesite",
             "label": "安山岩 / Andesite",
-            "dataSizeMB": 4.7,
+            "dataSizeMB": 4.3,
             "sizeType": "light",
             "location": "Ikaho, Gunma Pref. in Japan"
         },
         {
             "id": "ibaraki-gniess",
             "label": "片麻岩 / Gniess",
-            "dataSizeMB": 4.2,
+            "dataSizeMB": 4.0,
             "sizeType": "light",
             "location": "Ibaraki Pref. in Japan"
         },
         {
             "id": "ibaraki-phyllite",
             "label": "千枚岩 / Phyllite",
-            "dataSizeMB": 4.4,
+            "dataSizeMB": 4.1,
             "sizeType": "light",
             "location": "Ibaraki Pref. in Japan"
         },
         {
             "id": "ibaraki-hornfels",
             "label": "ホルンフェルス / Hornfels",
-            "dataSizeMB": 4.5,
+            "dataSizeMB": 4.2,
             "sizeType": "light",
             "location": "Ibaraki Pref in Japan"
         },
         {
             "id": "gunma-piemontite-schist",
             "label": "結晶片岩 / Crystalline schist",
-            "dataSizeMB": 1.8,
+            "dataSizeMB": 3.8,
             "sizeType": "light",
             "location": "Gunma Pref. in Japan"
         },
         {
             "id": "gunma-sericite-schist",
             "label": "結晶片岩 / Crystalline schist",
-            "dataSizeMB": 3.7,
+            "dataSizeMB": 3.5,
             "sizeType": "light",
             "location": "Gunma Pref. in Japan"
         },
         {
             "id": "tanzania-zoisite-schist",
-            "label": "結晶片岩 / Crystalline schist",
-            "dataSizeMB": 3.79,
+            "label": "褐簾石片麻岩 / Zoisite gneiss",
+            "dataSizeMB": 3.5,
             "sizeType": "light",
             "location": "Tanzania"
+        },
+        {
+            "id": "nagatoro-peritic-schist",
+            "label": "千枚岩 / Phyllite",
+            "dataSizeMB": 5.3,
+            "sizeType": "light",
+            "location": "Nagatoro, Saitama Pref. in Japan"
+        },
+        {
+            "id": "pakistan-marble",
+            "label": "結晶質石灰岩 / Marble",
+            "dataSizeMB": 5.6,
+            "sizeType": "light",
+            "location": "Pakistan"
+        },
+        {
+            "id": "sekigawa-muscovite-schist",
+            "label": "結晶片岩 / Crystalline schist",
+            "dataSizeMB": 2.8,
+            "sizeType": "light",
+            "location": "Sekigawa, Ehime Pref. in Japan"
+        },
+        {
+            "id": "nagatoro-limestone",
+            "label": "石灰岩 / Limestone",
+            "dataSizeMB": 3.4,
+            "sizeType": "light",
+            "location": "Nagatoro, Saitama Pref. in Japan"
+        },
+        {
+            "id": "southafrica-bif",
+            "label": "縞状鉄鉱層 / Banded iron formation",
+            "dataSizeMB": 4.2,
+            "sizeType": "light",
+            "location": "Sauth Africa"
+        },
+        {
+            "id": "korea-stromatlite",
+            "label": "ストロマトライト / Stromatolite",
+            "dataSizeMB": 6.3,
+            "sizeType": "light",
+            "location": "Korea"
+        },
+        {
+            "id": "russia-charoite",
+            "label": "チャロアイト / Charoite",
+            "dataSizeMB": 5.5,
+            "sizeType": "light",
+            "location": "Russia"
+        },
+        {
+            "id": "miyamori-serpentinite",
+            "label": "蛇紋岩 / Serpentinite",
+            "dataSizeMB": 8.9,
+            "sizeType": "light",
+            "location": "Miyamori, Iwate Pref. in Japan"
+        },
+        {
+            "id": "okinawa-ryukyu-limestone",
+            "label": "石灰岩 / Limestone",
+            "dataSizeMB": 17,
+            "sizeType": "light",
+            "location": "Tarama Isl., Okinawa Pref. in Japan"
+        },
+        {
+            "id": "tanzawa-zeolite-basalt",
+            "label": "玄武岩 / Basalt",
+            "dataSizeMB": 5.4,
+            "sizeType": "light",
+            "location": "Tanzawa, Kanagawa Pref. in Japan"
+        },
+        {
+            "id": "noto-tuff-breccia",
+            "label": "凝灰角礫岩 / Tuff breccia",
+            "dataSizeMB": 7.6,
+            "sizeType": "light",
+            "location": "Noto, Ishikawa Pref. in Japan"
+        },
+        {
+            "id": "tokyo-fukutokuokanoba-pumice",
+            "label": "軽石 / Pumice",
+            "dataSizeMB": 7.8,
+            "sizeType": "light",
+            "location": "Fukutokuokanoba, Tokyo Pref. in Japan"
+        },
+        {
+            "id": "tokyo-fukutokuokanoba-pumice-2",
+            "label": "軽石 / Pumice",
+            "dataSizeMB": 9.2,
+            "sizeType": "light",
+            "location": "Fukutokuokanoba, Tokyo Pref. in Japan"
+        },
+        {
+            "id": "tenkawa-skarn",
+            "label": "スカルン / Skarn",
+            "dataSizeMB": 10.1,
+            "sizeType": "light",
+            "location": "Tenkawa, Nara Pref. in Japan"
         }
     ]
 }
