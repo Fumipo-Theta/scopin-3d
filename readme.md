@@ -15,11 +15,11 @@ Metashapeを用いて3Dモデルを作成する。
 
 ## Prepare HTML and put a model
 
-- モデルの名前を決める(ex. `rhyolite`)
-- トップレベルの[`index.html`](index.html)にリンクを追加する(<`a href="/models/rhyolite/index.html">rhyolite</a>`)
-- [`models/`]("/models")ディレクトリにサブディレクトリ`models/rhyolite/`を配置
-  - HTMLファイル(`models/rhyolite/index.html`: [`index.template.html`](index.template.html)をもとに作成)と3Dモデルのアセット(`index.obj`, `index.mtl`, `index.jpg`)を設置
-- `models/rhyolite/index.html`を編集してパラメータを調整
+- モデルのid (ex. `model-0`) やラベルを決める
+- [src/js/rock-list.json](src/js/rock-list.json)にモデル情報を追記する
+  - トップページのモデル一覧に表示するため
+- [`models/`]("/models")ディレクトリにサブディレクトリ`models/model-0/`を配置
+  - 3Dモデルのアセット(`index.obj`, `index.mtl`, `index.jpg`)とサムネイル画像(`thumbnail.jpg`)を設置
 
 ## Local development
 
